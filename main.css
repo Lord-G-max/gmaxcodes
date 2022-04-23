@@ -1,0 +1,126 @@
+body{
+    background-color: #ced2da;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 250px;
+    background-attachment: fixed;
+}
+
+.body2{
+    background-color: rgba(223, 241, 241, 0.678);
+    height: 500px;
+    width: 115%;
+    border-radius: 10px;
+    border-style: bold;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-header{
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+    width: 10px;
+    flex-wrap: wrap;
+}
+
+.aiodavid-text{
+    font-family: cursive;
+    font-size: 13px;
+    color: gray;
+}
+
+.red-text{
+    color: rgb(255, 0, 0);
+}
+
+.middle-header{
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.right-header{
+    width: 200px;
+    margin-left: 2px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-header{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.lihead{
+    margin-right: 30px;
+}
+
+.nav-header-text{
+    font-family: cursive;
+    font-size: 8px;
+    color: gray;
+}
+.grid-body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    
+}
+
+.grid-body1{
+    height: 150px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.grid-body2{
+    align-items: center;
+    padding-left: 20px;
+}
+
+.textbig{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: gray;
+    font-family: cursive;
+}
+
+.text{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: gray;
+    font-family: cursive;
+}
+
+.porfolio-image{
+    border: none;
+    border-radius: 100px;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.social-icons{
+    margin-right: 15px;
+}
+
